@@ -102,6 +102,7 @@ int main () {
     for (int i=0;i<n;i++) {
         cout<<arr[i]<<" ";
     }
+        free(arr);
     }
     else {
         cout<<"Error: 2<=N<=10000";
